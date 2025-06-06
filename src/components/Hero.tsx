@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -30,10 +30,6 @@ export const Hero = () => {
               <a href="mailto:rohanm2717@gmail.com" className="hover:text-blue-600 transition-colors">
                 rohanm2717@gmail.com
               </a>
-            </div>
-            <div className="flex items-center gap-2 text-gray-600">
-              <Phone className="h-5 w-5 text-blue-600" />
-              <span>7040902717</span>
             </div>
           </div>
           

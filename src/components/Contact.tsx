@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -12,12 +12,6 @@ export const Contact = () => {
       href: "mailto:rohanm2717@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "7040902717",
-      href: "tel:7040902717"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "Pune, Maharashtra",
@@ -28,7 +22,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -36,9 +30,9 @@ export const Contact = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
           {contactInfo.map((contact, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 animate-fade-in hover-scale">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <contact.icon className="h-6 w-6 text-white" />
@@ -59,7 +53,7 @@ export const Contact = () => {
           ))}
         </div>
         
-        <div className="text-center">
+        <div className="text-center animate-fade-in">
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
             <a href="mailto:rohanm2717@gmail.com">Send Me an Email</a>
           </Button>
