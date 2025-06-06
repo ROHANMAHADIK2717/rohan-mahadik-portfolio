@@ -15,9 +15,9 @@ export const Hero = () => {
         <div className="text-center">
           <div className="animate-fade-in">
             <div className="mb-6">
-              <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-4 animate-bounce">
+              {/* <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-4 animate-bounce">
                 👋 Welcome to my portfolio
-              </span>
+              </span> */}
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Rohan Ravindra{" "}
@@ -37,19 +37,6 @@ export const Hero = () => {
               <span className="font-semibold text-blue-600">Linux</span>. 
               Proficient in developing robust applications, enhancing performance, and successfully resolving complex technical challenges.
             </p>
-          </div>
-          
-          <div className="flex flex-wrap justify-center gap-8 mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="flex items-center gap-3 text-gray-600 bg-white/70 backdrop-blur-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
-              <MapPin className="h-5 w-5 text-blue-600" />
-              <span className="font-medium">Pune, Maharashtra</span>
-            </div>
-            <div className="flex items-center gap-3 text-gray-600 bg-white/70 backdrop-blur-sm px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
-              <Mail className="h-5 w-5 text-blue-600" />
-              <a href="mailto:rohanm2717@gmail.com" className="hover:text-blue-600 transition-colors font-medium">
-                rohanm2717@gmail.com
-              </a>
-            </div>
           </div>
           
           <div className="flex flex-wrap justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>

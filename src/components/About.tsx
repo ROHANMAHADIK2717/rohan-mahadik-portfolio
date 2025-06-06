@@ -12,7 +12,7 @@ export const About = () => {
           <div className="space-y-6 animate-fade-in">
             <h3 className="text-2xl font-semibold text-gray-900">Professional Summary</h3>
             <p className="text-gray-600 leading-relaxed">
-              As a dedicated Software Engineer at Lentra AI Pvt Ltd, I specialize in developing scalable, 
+              As a dedicated Software Engineer, I specialize in developing scalable, 
               resilient systems using Java, MongoDB, and Spring technologies. My experience spans from 
               designing robust applications to implementing microservices architectures that enhance 
               infrastructure flexibility.
